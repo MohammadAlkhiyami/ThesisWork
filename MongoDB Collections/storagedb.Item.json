@@ -1,0 +1,720 @@
+[{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc1b"
+  },
+  "description": "Wireless Mouse",
+  "price": 19.99,
+  "manufacturerId": "8",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc1c"
+  },
+  "description": "Bluetooth Speaker",
+  "price": 39.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc1d"
+  },
+  "description": "Gaming Keyboard",
+  "price": 79.99,
+  "manufacturerId": "9",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc1e"
+  },
+  "description": "External Hard Drive (1TB)",
+  "price": 69.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc1f"
+  },
+  "description": "Portable Charger (10000mAh)",
+  "price": 29.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc20"
+  },
+  "description": "Wireless Earbuds",
+  "price": 49.99,
+  "manufacturerId": "5",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc21"
+  },
+  "description": "Webcam",
+  "price": 59.99,
+  "manufacturerId": "7",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc22"
+  },
+  "description": "Fitness Tracker",
+  "price": 89.99,
+  "manufacturerId": "4",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc23"
+  },
+  "description": "Electric Toothbrush",
+  "price": 34.99,
+  "manufacturerId": "10",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc24"
+  },
+  "description": "Bluetooth Headset",
+  "price": 59.99,
+  "manufacturerId": "7",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc25"
+  },
+  "description": "Coffee Maker",
+  "price": 129.99,
+  "manufacturerId": "3",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc26"
+  },
+  "description": "Smart Home Security Camera",
+  "price": 99.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc27"
+  },
+  "description": "USB-C Hub",
+  "price": 49.99,
+  "manufacturerId": "9",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc28"
+  },
+  "description": "Wireless Charging Pad",
+  "price": 24.99,
+  "manufacturerId": "4",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc29"
+  },
+  "description": "Travel Backpack",
+  "price": 49.99,
+  "manufacturerId": "9",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc2a"
+  },
+  "description": "Wireless Router",
+  "price": 89.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc2b"
+  },
+  "description": "Digital Alarm Clock",
+  "price": 19.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc2c"
+  },
+  "description": "Car Phone Mount",
+  "price": 14.99,
+  "manufacturerId": "3",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc2d"
+  },
+  "description": "Portable Blender",
+  "price": 39.99,
+  "manufacturerId": "5",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc2e"
+  },
+  "description": "Wireless Charging Stand",
+  "price": 29.99,
+  "manufacturerId": "2",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc2f"
+  },
+  "description": "Electric Kettle",
+  "price": 29.99,
+  "manufacturerId": "5",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc30"
+  },
+  "description": "Wireless Gaming Mouse",
+  "price": 59.99,
+  "manufacturerId": "8",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc31"
+  },
+  "description": "Smart Light Bulb",
+  "price": 19.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc32"
+  },
+  "description": "Portable Solar Charger",
+  "price": 49.99,
+  "manufacturerId": "2",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc33"
+  },
+  "description": "Wireless Keyboard",
+  "price": 49.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc34"
+  },
+  "description": "Hiking Backpack",
+  "price": 69.99,
+  "manufacturerId": "4",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc35"
+  },
+  "description": "Wireless Presenter",
+  "price": 29.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc36"
+  },
+  "description": "External SSD (500GB)",
+  "price": 99.99,
+  "manufacturerId": "9",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc37"
+  },
+  "description": "Smart Thermostat",
+  "price": 129.99,
+  "manufacturerId": "8",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc38"
+  },
+  "description": "Wireless Charging Car Mount",
+  "price": 39.99,
+  "manufacturerId": "4",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc39"
+  },
+  "description": "Noise Cancelling Headphones",
+  "price": 99.99,
+  "manufacturerId": "7",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc3a"
+  },
+  "description": "Mini Projector",
+  "price": 79.99,
+  "manufacturerId": "9",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc3b"
+  },
+  "description": "Robot Vacuum Cleaner",
+  "price": 199.99,
+  "manufacturerId": "8",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc3c"
+  },
+  "description": "USB Microphone",
+  "price": 69.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc3d"
+  },
+  "description": "Gaming Mousepad",
+  "price": 19.99,
+  "manufacturerId": "7",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc3e"
+  },
+  "description": "Smart Plug",
+  "price": 24.99,
+  "manufacturerId": "10",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc3f"
+  },
+  "description": "Wireless Charging Mousepad",
+  "price": 39.99,
+  "manufacturerId": "5",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc40"
+  },
+  "description": "Power Strip",
+  "price": 29.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc41"
+  },
+  "description": "Smart Doorbell",
+  "price": 149.99,
+  "manufacturerId": "10",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc42"
+  },
+  "description": "Waterproof Bluetooth Speaker",
+  "price": 59.99,
+  "manufacturerId": "8",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc43"
+  },
+  "description": "Wireless Sport Earphones",
+  "price": 49.99,
+  "manufacturerId": "7",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc44"
+  },
+  "description": "Gaming Controller",
+  "price": 49.99,
+  "manufacturerId": "2",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc45"
+  },
+  "description": "Home Security System",
+  "price": 199.99,
+  "manufacturerId": "4",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc46"
+  },
+  "description": "Wireless Charging Alarm Clock",
+  "price": 34.99,
+  "manufacturerId": "8",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc47"
+  },
+  "description": "Smart Mirror",
+  "price": 199.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc48"
+  },
+  "description": "Solar Power Bank",
+  "price": 39.99,
+  "manufacturerId": "10",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc49"
+  },
+  "description": "USB Desk Fan",
+  "price": 19.99,
+  "manufacturerId": "5",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc4a"
+  },
+  "description": "Wireless Range Extender",
+  "price": 49.99,
+  "manufacturerId": "2",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc4b"
+  },
+  "description": "External Blu-ray Drive",
+  "price": 89.99,
+  "manufacturerId": "10",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc4c"
+  },
+  "description": "Wireless Charging Lamp",
+  "price": 49.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc4d"
+  },
+  "description": "Smart Lock",
+  "price": 129.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc4e"
+  },
+  "description": "Car Dash Camera",
+  "price": 79.99,
+  "manufacturerId": "9",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc4f"
+  },
+  "description": "Mini Bluetooth Keyboard",
+  "price": 29.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc50"
+  },
+  "description": "USB-C Docking Station",
+  "price": 99.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc51"
+  },
+  "description": "Wireless Charging Nightstand",
+  "price": 59.99,
+  "manufacturerId": "4",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc52"
+  },
+  "description": "Gaming Headset",
+  "price": 89.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc53"
+  },
+  "description": "Portable DVD Player",
+  "price": 109.99,
+  "manufacturerId": "8",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc54"
+  },
+  "description": "Smart Scale",
+  "price": 49.99,
+  "manufacturerId": "9",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc55"
+  },
+  "description": "Wireless Presenter with Laser Pointer",
+  "price": 39.99,
+  "manufacturerId": "8",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc56"
+  },
+  "description": "Smart WiFi Router",
+  "price": 149.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc57"
+  },
+  "description": "Bluetooth FM Transmitter",
+  "price": 29.99,
+  "manufacturerId": "8",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc58"
+  },
+  "description": "Wireless Charging Desk Lamp",
+  "price": 49.99,
+  "manufacturerId": "10",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc59"
+  },
+  "description": "Wireless Charging Mouse",
+  "price": 34.99,
+  "manufacturerId": "7",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc5a"
+  },
+  "description": "Smart Water Bottle",
+  "price": 39.99,
+  "manufacturerId": "10",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc5b"
+  },
+  "description": "Gaming Mouse",
+  "price": 39.99,
+  "manufacturerId": "7",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc5c"
+  },
+  "description": "Wireless Charging Bedside Lamp",
+  "price": 69.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc5d"
+  },
+  "description": "USB-C Car Charger",
+  "price": 19.99,
+  "manufacturerId": "3",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc5e"
+  },
+  "description": "Smart LED Strip Lights",
+  "price": 29.99,
+  "manufacturerId": "5",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc5f"
+  },
+  "description": "Wireless Charging Mouse Pad",
+  "price": 49.99,
+  "manufacturerId": "3",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc60"
+  },
+  "description": "Smartphone Gimbal Stabilizer",
+  "price": 79.99,
+  "manufacturerId": "2",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc61"
+  },
+  "description": "Wireless Charging Floor Lamp",
+  "price": 99.99,
+  "manufacturerId": "9",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc62"
+  },
+  "description": "Bluetooth Game Controller",
+  "price": 49.99,
+  "manufacturerId": "10",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc63"
+  },
+  "description": "Smart Light Switch",
+  "price": 29.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc64"
+  },
+  "description": "Wireless Charging Table Lamp",
+  "price": 39.99,
+  "manufacturerId": "3",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc65"
+  },
+  "description": "Smart Glasses",
+  "price": 199.99,
+  "manufacturerId": "5",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc66"
+  },
+  "description": "USB-C Flash Drive",
+  "price": 24.99,
+  "manufacturerId": "9",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc67"
+  },
+  "description": "Wireless Charging Desk Organizer",
+  "price": 59.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc68"
+  },
+  "description": "Smart Pet Feeder",
+  "price": 89.99,
+  "manufacturerId": "7",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc69"
+  },
+  "description": "Portable Jump Starter",
+  "price": 79.99,
+  "manufacturerId": "1",
+  "_class": "org.example.domain.Item"
+},
+{
+  "_id": {
+    "$oid": "65f8c1a46d640e4865d7cc6a"
+  },
+  "description": "Wireless Charging Book Light",
+  "price": 29.99,
+  "manufacturerId": "6",
+  "_class": "org.example.domain.Item"
+}]

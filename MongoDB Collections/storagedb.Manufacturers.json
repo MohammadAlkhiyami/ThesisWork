@@ -1,0 +1,60 @@
+[{
+  "_id": "1",
+  "name": "Techtronics Inc.",
+  "address": "123 Main Street",
+  "_class": "org.example.domain.Manufacturer"
+},
+{
+  "_id": "2",
+  "name": "Gadgetron Industries",
+  "address": "456 Elm Avenue",
+  "_class": "org.example.domain.Manufacturer"
+},
+{
+  "_id": "3",
+  "name": "ElectroTech Solutions",
+  "address": "789 Oak Boulevard",
+  "_class": "org.example.domain.Manufacturer"
+},
+{
+  "_id": "4",
+  "name": "Innovatech Electronics",
+  "address": "1011 Pine Lane",
+  "_class": "org.example.domain.Manufacturer"
+},
+{
+  "_id": "5",
+  "name": "SmartGears Co.",
+  "address": "1213 Maple Court",
+  "_class": "org.example.domain.Manufacturer"
+},
+{
+  "_id": "6",
+  "name": "TechGenius Innovations",
+  "address": "1415 Cedar Road",
+  "_class": "org.example.domain.Manufacturer"
+},
+{
+  "_id": "7",
+  "name": "EcoElectronics Ltd.",
+  "address": "1617 Birch Street",
+  "_class": "org.example.domain.Manufacturer"
+},
+{
+  "_id": "8",
+  "name": "DigitalDynamics Corporation",
+  "address": "1819 Walnut Avenue",
+  "_class": "org.example.domain.Manufacturer"
+},
+{
+  "_id": "9",
+  "name": "FutureTech Enterprises",
+  "address": "2021 Cherry Boulevard",
+  "_class": "org.example.domain.Manufacturer"
+},
+{
+  "_id": "10",
+  "name": "Nextron Inc.",
+  "address": "2223 Sycamore Lane",
+  "_class": "org.example.domain.Manufacturer"
+}]
