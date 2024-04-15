@@ -22,8 +22,4 @@ public class ItemStreamController {
 
         return itemReactiveCappedRepository.findItemsBy();
     }
-
-
-
-
 }

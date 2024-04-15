@@ -19,7 +19,7 @@ public class DataService {
     @Autowired
     private RestTemplate restTemplate; // or WebClient if you prefer
 
-    public List<Item> fetchDataFromSource1() {
+    public List<Item> fetchAllItems() {
         ResponseEntity<List<Item>> responseEntity = restTemplate.exchange(
                 "http://localhost:8085/findAllItems", // Assuming "ItemService" is the registered name of the ItemService
                 HttpMethod.GET,
@@ -29,7 +29,7 @@ public class DataService {
         return responseEntity.getBody();
     }
 
-    public List<Manufacturer> fetchDataFromSource2() {
+    public List<Manufacturer> fetchAllManufacturers() {
         ResponseEntity<List<Manufacturer>> responseEntity = restTemplate.exchange(
                 "http://localhost:8086/findAllManufacturers", // Assuming "ManufacturerService" is the registered name of the ManufacturerService
                 HttpMethod.GET,

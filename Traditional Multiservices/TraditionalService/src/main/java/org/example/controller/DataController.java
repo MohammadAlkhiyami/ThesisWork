@@ -19,8 +19,8 @@ public class DataController {
 
     @GetMapping("/springmvc/data")
     public List<ItemsManufacturers> getData() {
-        List<Item> items = dataService.fetchDataFromSource1();
-        List<Manufacturer> manufacturers = dataService.fetchDataFromSource2();
+        List<Item> items = dataService.fetchAllItems();
+        List<Manufacturer> manufacturers = dataService.fetchAllManufacturers();
 
         return dataService.mergeLists(items, manufacturers);
     }

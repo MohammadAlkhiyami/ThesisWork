@@ -25,41 +25,29 @@ public class ItemController {
 
     @GetMapping(ITEM_END_POINT_V1)
     public Flux<Item> getAllItems() {
-
         return itemReactiveRepository.findAll();
-
     }
 
     @GetMapping(ITEM_END_POINT_V1 + "/{id}")
     public Mono<ResponseEntity<Item>> getOneItem(@PathVariable String id) {
-
         return itemReactiveRepository.findById(id)
                 .map((item) -> new ResponseEntity<>(item, HttpStatus.OK))
                 .defaultIfEmpty(new ResponseEntity<>(HttpStatus.NOT_FOUND));
-
     }
-
 
     @PostMapping(ITEM_END_POINT_V1)
     @ResponseStatus(HttpStatus.CREATED)
     public Mono<Item> createItem(@RequestBody Item item) {
-
         return itemReactiveRepository.save(item);
-
-
     }
 
     @DeleteMapping(ITEM_END_POINT_V1 + "/{id}")
     public Mono<Void> deleteItem(@PathVariable String id) {
-
         return itemReactiveRepository.deleteById(id);
-
-
     }
 
     @GetMapping(ITEM_END_POINT_V1 + "/runtimeException")
     public Flux<Item> runtimeException() {
-
         return itemReactiveRepository.findAll()
                 .concatWith(Mono.error(new RuntimeException("RuntimeException Occurred.")));
     }
@@ -84,6 +72,4 @@ public class ItemController {
                 .defaultIfEmpty(new ResponseEntity<>(HttpStatus.NOT_FOUND));
 
     }
-
-
 }
