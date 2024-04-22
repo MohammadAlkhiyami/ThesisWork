@@ -6,6 +6,13 @@ import com.learnreactivespring.document.Manufacturer;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 @Service
 public class DataService {
@@ -16,33 +23,44 @@ public class DataService {
         this.webClientBuilder = webClientBuilder;
     }
 
-    public Flux<ItemsManufacturers> getData() {
-        Flux<Item> itemsFlux = webClientBuilder.build()
+    public Mono<List<ItemsManufacturers>> getData() {
+        Mono<List<Item>> itemsMono = webClientBuilder.build()
                 .get()
                 .uri("http://localhost:8085/items")
                 .retrieve()
-                .bodyToFlux(Item.class);
+                .bodyToFlux(Item.class)
+                .collectList();
 
-        // request is sent but response is not neccessary
-        Flux<Manufacturer> manufacturersFlux = webClientBuilder.build()
+        Mono<List<Manufacturer>> manufacturersMono = webClientBuilder.build()
                 .get()
                 .uri("http://localhost:8086/manufacturers")
                 .retrieve()
-                .bodyToFlux(Manufacturer.class);
+                .bodyToFlux(Manufacturer.class)
+                .collectList();
 
-        // waiting for the responses of both request
-        return Flux.zip(itemsFlux, manufacturersFlux)
+        return Mono.zip(itemsMono, manufacturersMono)
                 .map(tuple -> {
-                    Item item = tuple.getT1();
-                    Manufacturer manufacturer = tuple.getT2();
-                    ItemsManufacturers itemsManufacturers = new ItemsManufacturers();
-                    itemsManufacturers.setItemId(item.getId());
-                    itemsManufacturers.setItemDescription(item.getDescription());
-                    itemsManufacturers.setItemPrice(item.getPrice());
-                    itemsManufacturers.setManufacturerId(manufacturer.getId());
-                    itemsManufacturers.setManufacturerName(manufacturer.getName());
-                    itemsManufacturers.setManufacturerAddress(manufacturer.getAddress());
-                    return itemsManufacturers;
+                    List<Item> items = tuple.getT1();
+                    List<Manufacturer> manufacturers = tuple.getT2();
+                    Map<String, Manufacturer> manufacturerMap = manufacturers.stream()
+                            .collect(Collectors.toMap(Manufacturer::getId, Function.identity()));
+
+                    List<ItemsManufacturers> mergedList = new ArrayList<>();
+                    for (Item item : items) {
+                        ItemsManufacturers mergedItem = new ItemsManufacturers();
+                        mergedItem.setItemId(item.getId());
+                        mergedItem.setItemDescription(item.getDescription());
+                        mergedItem.setItemPrice(item.getPrice());
+                        Manufacturer manufacturer = manufacturerMap.get(item.getManufacturerId());
+                        if (manufacturer != null) {
+                            mergedItem.setManufacturerId(manufacturer.getId());
+                            mergedItem.setManufacturerName(manufacturer.getName());
+                            mergedItem.setManufacturerAddress(manufacturer.getAddress());
+                        }
+                        mergedList.add(mergedItem);
+                    }
+                    return mergedList;
                 });
     }
+
 }
